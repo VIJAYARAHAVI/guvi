@@ -3,20 +3,20 @@ import java.util.Scanner;
 public class Largest {
 public static void main(String[] args) {
 	Scanner s=new Scanner(System.in);
-	int a=s.nextInt(),b=s.nextInt(),c=s.nextInt(),temp=c;
+	int a=s.nextInt(),b=s.nextInt(),c=s.nextInt();
 	if((a>b) && (a>c))
 	{
-		temp=a;
+		System.out.println(a);
 	}
 	else if(b>c)
 	{
-		temp=b;
+		System.out.println(b);
 	}
 	else
 	{
-		temp=c;
+		System.out.println(c);
 	}
-	System.out.println(temp);
+	
 	
 	}
 }
